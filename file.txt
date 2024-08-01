@@ -1,1 +1,17 @@
-See if this changes persist.
+# USB Stick
+
+## Partitioning the stick
+
+* Create one physical partition with maximum size
+* Encrypt stick with luks 2
+* Format the stick with ext4 file system
+
+## Password Manager
+
+* install keepassxc
+* create a passwords directory on the stick e.g. safe, workpws, ...
+* create a password and private key file and save that to the stick within the specific directory
+
+
+
+
